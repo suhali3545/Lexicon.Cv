@@ -1,0 +1,162 @@
+ /*General body Styles*/
+.body{
+    background-color: rgb(28, 28, 65);
+    
+}     /*<!--Container--*/
+.Header{
+    background-color: #1a2b48;
+    color: #FFF;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+    
+h1{   /*Name Styling*/
+    
+    border-bottom: 0px solid #9c8d42;
+    padding-bottom: 5px;
+    color: #e6e9ec;
+    margin-bottom: 5px;
+    font-size: 48px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.header{     /*Title Styling*/
+    margin-bottom: 40px;
+    
+}  
+ 
+.header p {      /*Title Styling*/
+    display: flex;
+    justify-content: space-evenly;
+    margin:  0;
+    font-size: 19px; 
+    margin-bottom:10px 0 30px 0;
+
+}
+ 
+.header i{        /*Contact details Styling*/
+    margin-bottom:5px ;
+    font-size: 24px;
+    color:  #9c8d42;
+    
+} 
+.header span{
+    font-size: 16px;
+    color: #d9b76e;
+}    /*Optional: Add some spacing for mobile responsiveness */
+@media (max-width: 600x){
+   .contact- details{
+    flex-direction: column;
+    align-items: center;
+}
+
+   }  /*Education, Experience, Skills, Languages, Hobbies and References Section*/
+
+.flex-contanier{
+    display: flex;
+}
+
+ .left{      /* KOMPETENS*/
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(236, 231, 231);
+    height:auto;
+    width: 35%;
+    margin-top: 290px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 15px;
+    background-color: rgb(241, 239, 239);
+
+ }
+.right{               /*Profile:*/
+                       /*U T B I L D N I N G*/
+    border: 0px;
+    height: auto;
+    width: 65%;
+    margin-top: 50%;
+    margin-right: 0;
+    margin-top: 300px;}
+ 
+.box-flex-contanier{
+        border: 1px;
+        border-bottom: 5px;
+        border-color: white;
+        border-style: solid;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 0px;
+        padding-right: 10px;
+        background-color: #fff;}
+.box-flex-contanier{     /*U T B I L D N I N G*/
+    display: flex;
+}
+.left1{
+    border: 0px;
+    border-style: solid;
+    height:auto;
+    width: 25%;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.right1{
+    border: 0px;
+    height: auto;
+    width: 100%;
+    margin-left: 90px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-top:1px;}
+ 
+.box-flex-contanier2{     /*ARBETSLIVSERFARENHET*/
+
+        display: flex;
+    }
+    .left2{
+        border: 0px;
+        border-style: solid;
+        height:auto;
+        width: 25%;
+        margin-top: 3px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .right2{
+        border: 0px;
+        height: auto;
+        width: 100%;
+        margin-left: 90px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-top:1px;}
+    .Referenser{        /*References Section*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid #333;
+            padding: 20px;
+            width: 50%;
+            margin: 0 auto;
+        }
+    .icon{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 10px;
+     }
+    .text{            
+        font-size: 14px;
+        color: #666;
+        font-style: italic;
+        margin: 0px;
+     }
+    
